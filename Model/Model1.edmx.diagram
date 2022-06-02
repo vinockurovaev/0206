@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="bed02c4b925a4249bd06a2d11f1cb4a6" Name="Diagram1">
+        <EntityTypeShape EntityType="СтудентП31Model.Группа" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="СтудентП31Model.Предмет" Width="1.5" PointX="3" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="СтудентП31Model.Преподаватель" Width="1.5" PointX="3" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="СтудентП31Model.РезультатЭкзамена" Width="1.5" PointX="7.5" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="СтудентП31Model.Специальность" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="СтудентП31Model.Студент" Width="1.5" PointX="5.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="СтудентП31Model.ЭкзаменационнаяВедомость" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="СтудентП31Model.FK__Студент__ГруппаК__5CD6CB2B" ManuallyRouted="false" />
+        <AssociationConnector Association="СтудентП31Model.FK__Экзаменац__Групп__6383C8BA" ManuallyRouted="false" />
+        <AssociationConnector Association="СтудентП31Model.FK_Группа_Специальность" ManuallyRouted="false" />
+        <AssociationConnector Association="СтудентП31Model.FK__Экзаменац__Предм__6477ECF3" ManuallyRouted="false" />
+        <AssociationConnector Association="СтудентП31Model.FK__Экзаменац__Препо__656C112C" ManuallyRouted="false" />
+        <AssociationConnector Association="СтудентП31Model.FK__Результат__КодВе__71D1E811" ManuallyRouted="false" />
+        <AssociationConnector Association="СтудентП31Model.FK__Результат__КодСт__70DDC3D8" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
